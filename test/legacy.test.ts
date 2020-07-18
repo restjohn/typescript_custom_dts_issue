@@ -8,11 +8,12 @@ describe('legacy', function() {
 
     it('foos the input', function() {
       const out = legacy.foo('abc123')
-      expect(out).to.equal('321cba')
+      expect(out).to.equal('foo abc123')
     })
 
     it('handles reverse option', function() {
-      const out = legacy.foo('abc123', { reverse: true })
+      const options: legacy.FooOptions = { reverse: true }
+      const out = legacy.foo('abc123', options)
       expect(out).to.equal('321cba oof')
     })
   })
