@@ -24,7 +24,7 @@ which the compiler does not emit to the `src` output directory, `lib`, so
 rm -rf lib test-lib
 npm run test_with_types
 ```
-The `test_with_types` scripts includes a step that copies the custom type 
+The `test_with_types` script includes a step that copies the custom type 
 definition files from `src` to `lib`.  Now you will see that the the project
 builds correctly.  However, this build requires an explicit compilation of
 `src`, then copying the `.d.ts` files, then compiling `test`, which defeats
