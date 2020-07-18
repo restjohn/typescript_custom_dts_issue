@@ -17,4 +17,12 @@ describe('legacy', function() {
       expect(out).to.equal('321cba oof')
     })
   })
+
+  describe('foobar', function() {
+
+    it('foobars the input', function() {
+      const out = legacy.foobar('abc123')
+      expect(out).to.equal('foo bar abc123')
+    })
+  })
 })
