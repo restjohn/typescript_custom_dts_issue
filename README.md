@@ -1,4 +1,4 @@
-# Migrating Legacy JS Node to TypeScript with Custom Type Definitions
+# Migrating Legacy JS Node Modules to TypeScript with Custom Type Definitions
 
 This is a simple repository to demonstrate using TypeScript custom type
 definitions (`.d.ts` files) to help transition a JavaScript Node project to
